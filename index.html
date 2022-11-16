@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <p>Escriba su nombre:</p>
+    <input type="text" id="nameUser">
+    <br>
+    <br>
+    <form action="#">
+        <label for="lang">Material de la caja:</label>
+        <select name="materiales" id="lang">
+            <option value="Diamantes">Diamantes</option>
+            <option value="Cartón">Cartón</option>
+            <option value="Tiburon">Tiburón</option>
+            <option value="Polaca">Polaca</option>
+        </select>
+    </form>
+
+    <br>
+    <br>
+
+    <p>Elige el tamaño</p>
+    <div>
+        <input type="radio" id="little" name="sizeBox" value="opcion1">
+        <label for="little">ni se ve</label>
+      </div>
+  
+      <div>
+        <input type="radio" id="medium" name="sizeBox" value="opcion2">
+        <label for="medium">apañá</label>
+      </div>
+  
+      <div>
+        <input type="radio" id="large" name="sizeBox" value="opcion3">
+        <label for="large">mu grande y bonica</label>
+      </div>
+    <br>
+    <br>
+
+    <p>Si no te basta pues pide mas</p>
+    <textarea id="w3review" name="w3review" rows="4" cols="50">
+    </textarea>
+
+    <br>
+
+    <button id="button1">Enviar</button>
+    <p id="result"></p>
+
+
+
+
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
